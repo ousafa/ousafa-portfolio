@@ -14,10 +14,10 @@ This is my personal portfolio website built with **React, Vite, and Tailwind CSS
 
 ## 📦 Tech Stack
 
-- **Frontend:** React, Vite, Tailwind CSS  
-- ** Email Service: ** emailjs-com (for sending emails)
-- **Deployment:** Netlify  
-- **Tools Used:** Git, GitHub, VS Code  
+- **Frontend:** React, Vite, Tailwind CSS
+- **Email Service:** emailjs-com (for sending emails)
+- **Deployment:** Netlify
+- **Tools Used:** Git, GitHub, VS Code
 
 ---
 
@@ -35,14 +35,14 @@ cd react-portfolio
 # Install dependencies
 npm install
 
-# Start the development server
-npm run dev
-
-# Install Tailwind CSS 
+# Install Tailwind CSS
 npm install tailwindcss @tailwindcss/vite
 
 # Install EmailJS for contact form
 npm install emailjs-com
+
+# Start the development server
+npm run dev
 ```
 
 ---
