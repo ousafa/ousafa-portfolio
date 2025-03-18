@@ -7,7 +7,7 @@ export const About = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <div className="max-w-3xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-pink-500 to-rose-400 bg-clip-text text-transparent text-center">
+        <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-orange-600 to-amber-700 bg-clip-text text-transparent text-center">
           {" "}
           About Me
         </h2>
@@ -28,7 +28,7 @@ export const About = () => {
                 {frontendSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-pink-500/10 text-pink-500 py-1 px-3 rounded-full text-sm hover:bg-pink-500/20 
+                    className="bg-orange-500/10 text-orange-500 py-1 px-3 rounded-full text-sm hover:bg-orange-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                     "
                   >
@@ -44,7 +44,7 @@ export const About = () => {
                 {backendSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-pink-500/10 text-pink-500 py-1 px-3 rounded-full text-sm hover:bg-pink-500/20 
+                    className="bg-orange-500/10 text-orange-500 py-1 px-3 rounded-full text-sm hover:bg-orange-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                     "
                   >
