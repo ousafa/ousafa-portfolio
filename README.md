@@ -49,12 +49,12 @@ npm run dev
 
 ## 📷 Screenshots
 
-(Add screenshots of your portfolio here)
+![Portfolio Screenshot](public/portfolio.png)
 
 ---
 
 ## 📞 Contact
 
 - **📧 Email:** ouaammou.safa@gmail.com
-- **🌐 Website:** your-portfolio.com
+- **🌐 Website:** [your-portfolio.com](https://ousafa.github.io/ousafa-portfolio/)
 - **💼 LinkedIn:** https://www.linkedin.com/in/safa-ouammou-1a1408249/

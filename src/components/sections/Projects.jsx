@@ -43,7 +43,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center"></div>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span
-                  className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-orange-500/20 
+                  className="bg-yellow-500/20 text-gray-300 py-1 px-3 rounded-full text-sm hover:bg-orange-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
                     "
                 >
