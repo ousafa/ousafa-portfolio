@@ -1,4 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll ";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 export const Projects = () => {
   return (
     <section
@@ -37,14 +40,7 @@ export const Projects = () => {
                 ))}
               </div>
 
-              <div className="flex justify-between items-center">
-                <a
-                  href="#"
-                  className="text-orange-400 hover:text-orange-300 transition-colors my-4"
-                >
-                  View Project →
-                </a>
-              </div>
+              <div className="flex justify-between items-center"></div>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span
                   className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-orange-500/20 
@@ -88,22 +84,26 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-              <div className="flex justify-between items-center">
+              <div className="flex gap-4 mb-4">
+                {/* Demo Button */}
                 <a
                   href="#"
-                  className="text-orange-400 hover:text-orange-300 transition-colors my-4"
+                  className="flex items-center gap-2 border-2 border-gray-600 text-gray-300 rounded-full py-1 px-3  hover:bg-orange-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]"
                 >
-                  View Project →
+                  <FontAwesomeIcon icon={faLink} />
+                  <span> Demo</span>
                 </a>
-              </div>
-              <div className="flex flex-wrap gap-2 mb-4">
-                <span
-                  className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-orange-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
-                    "
+                {/* Code Button */}
+                <a
+                  href="https://github.com/ousafa/salamHack-2025-Ishara-Project"
+                  target="_blank"
+                  className="flex items-center gap-2 border-2 border-gray-600 text-gray-300 rounded-full py-1 px-3  hover:bg-orange-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]"
                 >
-                  In Progress
-                </span>
+                  <FontAwesomeIcon icon={faGithub} />
+                  <span>Code</span>
+                </a>
               </div>
             </div>
           </div>
