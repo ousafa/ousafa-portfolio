@@ -6,7 +6,6 @@ export const Projects = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
-
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-orange-600 to-amber-700 bg-clip-text text-transparent text-center">
             {" "}
@@ -109,7 +108,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        </RevealOnScroll>
+      </RevealOnScroll>
     </section>
   );
 };

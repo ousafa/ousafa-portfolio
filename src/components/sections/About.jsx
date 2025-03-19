@@ -1,4 +1,4 @@
-import { RevealOnScroll } from "../RevealOnScroll";
+import { RevealOnScroll } from "../RevealOnScroll ";
 
 export const About = () => {
   const frontendSkills = ["React", "JavaScript", "TailwindCSS", "Git"];
