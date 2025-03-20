@@ -56,5 +56,5 @@ npm run dev
 ## 📞 Contact
 
 - **📧 Email:** ouaammou.safa@gmail.com
-- **🌐 Website:** [your-portfolio.com](https://ousafa.github.io/ousafa-portfolio/)
+- **🌐 Website:** [my-portfolio.com](https://ousafa.github.io/ousafa-portfolio/)
 - **💼 LinkedIn:** https://www.linkedin.com/in/safa-ouammou-1a1408249/
